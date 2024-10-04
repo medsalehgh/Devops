@@ -33,7 +33,7 @@ public class User implements Serializable {
 	private Date dateNaissance;
 	
 	@Enumerated(EnumType.STRING)
-	Role role; 
+	Role roles; 
 	
 	public User() {	}
 
